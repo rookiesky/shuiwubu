@@ -172,3 +172,5 @@ def main():
        newNews()
     except:
         pass 
+
+main()
