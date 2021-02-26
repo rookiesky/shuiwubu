@@ -5,7 +5,7 @@ name: run swubu
 
 on:
   schedule:
-    - cron: '* */12 * * *'
+    - cron: '20 12 * * *'
   push:
     branches: [ main ]
 
