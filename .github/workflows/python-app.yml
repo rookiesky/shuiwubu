@@ -4,10 +4,11 @@
 name: run swubu
 
 on:
-  schedule:
-    - cron: '20 12 * * *'
   push:
     branches: [ main ]
+  schedule:
+    # * is a special character in YAML so you have to quote this string
+    - cron:  '20 8 * * *'
 
 jobs:
   build:
